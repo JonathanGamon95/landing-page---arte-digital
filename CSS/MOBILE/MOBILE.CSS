@@ -6,8 +6,10 @@
 
 /* COLORS HOME*/
 body {
+    /* background: rgb(97, 64, 220);
+    background: linear-gradient(0deg, rgba(97, 64, 220, 1) 0%, rgba(7, 12, 16, 1) 100%); */
     background: rgb(97, 64, 220);
-    background: linear-gradient(0deg, rgba(97, 64, 220, 1) 0%, rgba(7, 12, 16, 1) 100%);
+    background: linear-gradient(0deg, rgba(97, 64, 220, 1) 0%, rgba(114, 38, 118, 1) 50%, rgba(7, 12, 16, 1) 100%);
 }
 
 h1,
@@ -455,6 +457,7 @@ nav {
     gap: 20px;
     border-radius: 20px;
 }
+
 .contact p {
     margin-left: 20px;
 }
@@ -529,4 +532,5 @@ footer .cont_products {
 footer .cont_social_networks p,
 footer .cont_products p {
     margin-left: 10px;
+    font-size: 14px;
 }

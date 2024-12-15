@@ -6,6 +6,11 @@
 
 
     /* HEADER */
+    header {
+        width: 100%;
+    }
+
+
     #button_header {
         display: none;
     }
@@ -35,7 +40,7 @@
 
 
     #HOME {
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         padding: 0%;
 
@@ -110,7 +115,7 @@
     #SERVICE_1,
     #SERVICE_2,
     #SERVICE_3 {
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         padding: 0%;
         display: grid;
@@ -184,7 +189,7 @@
 
     /* ABOUT US */
     #ABOUT_US {
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr 200px 1fr;
@@ -252,7 +257,7 @@
 
     /* CONTACT US */
     #CONTACT_US {
-        width: 100vw;
+        width: 100%;
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr 1fr;
