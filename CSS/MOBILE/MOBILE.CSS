@@ -525,8 +525,8 @@ footer .cont_social_networks,
 footer .cont_products {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 5px;
+    margin-top: 10px;
 }
 
 footer .cont_social_networks p,
